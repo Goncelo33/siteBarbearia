@@ -1,0 +1,20 @@
+site barbearia souza
+
+Atue como um Especialista em UX/UI Design e Copywriter experiente no nicho de estética masculina. Preciso de um planejamento completo e ideias detalhadas para criar o site de uma barbearia moderna e premium. 
+
+Por favor, estruture a sua resposta nos seguintes tópicos:
+
+1. Proposta de Valor e Slogan: Crie 3 opções de slogans impactantes que misturem tradição com modernidade.
+2. Paleta de Cores e Estilo Visual: Sugira uma combinação de cores (com códigos Hex) e o estilo de design ideal (ex: industrial, minimalista, vintage).
+3. Arquitetura de Páginas (Mapa do Site): Liste as páginas essenciais e o que deve conter em cada uma.
+4. Seções da Landing Page (Página Inicial): Detalhe o fluxo de leitura da página inicial, seção por seção (Hero, Serviços, Sobre, Depoimentos, etc.), explicando o objetivo de cada bloco e o que colocar de texto/imagem.
+5. Funcionalidades Indispensáveis: Sugira ferramentas tecnológicas (como sistema de agendamento online, galeria antes/depois, integração com WhatsApp, etc.) para melhorar a conversão.
+6. Ideias de CTAs (Chamadas para Ação): Escreva 5 exemplos de frases curtas e persuasivas para botões de agendamento.
+
+Adote um tom profissional, moderno, focado em experiência do cliente e conversão de novos agendamentos.
+
+7. Dados da barbearia:
+Barbearia Souza foi fundada pelo barbeiro Marcelo Gonçalves de Souza no ano de 2016, na cidade de Laguna SC, inovando com cortes tendencias e design de barba e sobrancelha! ambiente alternativo com games e cerveja gelada e muita resenha!
+Ao longo dos anos foi destaque no mercado e fez muitas amizades e parcerias
+devido a profissão! Seu diferencial sempre foi o visagismo mesmo quando não era 
+falado sobre o mesmo ele já tinha essa visão de compatibilidade para cada individo tanto o cabelo quanto a barba

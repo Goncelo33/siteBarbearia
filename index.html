@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Souza — visagismo, cortes, barba e muita resenha em Laguna/SC.">
+    <title>Barbearia Souza | Estilo, Visagismo e Resenha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <a href="#inicio" class="brand" aria-label="Barbearia Souza - início">
+            <img src="imagens/logoBarberz.png" alt="Barbearia Souza" id="logo-menu">
+        </a>
+
+        <nav id="menu-principal" aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#visagismo">Visagismo</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <button class="btn-cta" onclick="abrirAgendamento()">Agendar</button>
+        </nav>
+
+        <button class="menu-mobile" id="menu-mobile" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-overlay"></div>
+            <div class="hero-content reveal">
+                <span class="eyebrow">BARBEARIA SOUZA • LAGUNA/SC</span>
+                <img src="imagens/logoBarberz.png" alt="Logo Barbearia Souza" id="logo-hero">
+                <h1>Tradição na resenha.<br><span>Precisão no seu estilo.</span></h1>
+                <p>Desde 2016, cortes, barba e visagismo pensados para combinar com você.</p>
+                <div class="hero-actions">
+                    <button class="btn-cta-large" onclick="abrirAgendamento()">Agendar meu horário</button>
+                    <a class="btn-outline" href="#servicos">Conhecer serviços</a>
+                </div>
+                <div class="hero-meta">
+                    <span>✦ Visagismo personalizado</span>
+                    <span>✦ Ambiente alternativo</span>
+                    <span>✦ Muita resenha</span>
+                </div>
+            </div>
+            <a href="#diferenciais" class="scroll-down" aria-label="Rolar para diferenciais">↓</a>
+        </section>
+
+        <section class="diferenciais" id="diferenciais">
+            <div class="section-heading reveal">
+                <span class="eyebrow">POR QUE A SOUZA?</span>
+                <h2>Mais que um corte.</h2>
+                <p>Uma experiência pensada para você sair daqui sentindo que o visual realmente combina com a sua identidade.</p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card reveal">
+                    <div class="feature-icon">✂</div>
+                    <h3>Visagismo</h3>
+                    <p>O corte e a barba são pensados de acordo com o formato do rosto, estilo e personalidade.</p>
+                </article>
+                <article class="feature-card reveal">
+                    <div class="feature-icon">◆</div>
+                    <h3>Estilo sob medida</h3>
+                    <p>Do clássico ao atual, cada atendimento busca valorizar o que funciona melhor para você.</p>
+                </article>
+                <article class="feature-card reveal">
+                    <div class="feature-icon">☕</div>
+                    <h3>Ambiente & resenha</h3>
+                    <p>Games, cerveja gelada e aquele clima descontraído que faz a barbearia virar ponto de encontro.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="servicos-section" id="servicos">
+            <div class="section-heading reveal">
+                <span class="eyebrow">MENU DA CASA</span>
+                <h2>Escolha sua experiência.</h2>
+                <p class="subtitulo-servicos">Serviços pensados para cuidar do visual sem perder a essência da resenha.</p>
+            </div>
+
+            <div class="cards-servicos-container">
+                <article class="card-servico reveal">
+                    <div>
+                        <span class="card-number">01</span>
+                        <h3>Corte Premium</h3>
+                        <p class="descricao-servico">Corte com visagismo personalizado, lavagem e finalização.</p>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="preco">R$ 40</div>
+                        <button class="btn-card" onclick="abrirAgendamento('Corte Premium')">Agendar</button>
+                    </div>
+                </article>
+
+                <article class="card-servico destaque reveal">
+                    <span class="selo-destaque">Mais pedido</span>
+                    <div>
+                        <span class="card-number">02</span>
+                        <h3>Design de Barba</h3>
+                        <p class="descricao-servico">Desenho personalizado, toalha quente e cuidados para um acabamento impecável.</p>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="preco">R$ 25</div>
+                        <button class="btn-card" onclick="abrirAgendamento('Design de Barba')">Agendar</button>
+                    </div>
+                </article>
+
+                <article class="card-servico reveal">
+                    <div>
+                        <span class="card-number">03</span>
+                        <h3>Combo Souza</h3>
+                        <p class="descricao-servico">Cabelo, barba e sobrancelha com visagismo completo.</p>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="preco">R$ 60</div>
+                        <button class="btn-card" onclick="abrirAgendamento('Combo Souza')">Agendar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="sobre-section" id="sobre">
+            <div class="sobre-container">
+                <div class="sobre-texto reveal">
+                    <span class="eyebrow">A NOSSA HISTÓRIA</span>
+                    <h2>Desde 2016, fazendo do estilo uma assinatura.</h2>
+                    <p class="destaque-sobre">A Barbearia Souza nasceu em Laguna/SC com uma ideia simples: entregar um visual bem feito e uma experiência que desse vontade de voltar.</p>
+                    <p>Fundada pelo barbeiro <strong>Marcelo Gonçalves de Souza</strong>, a barbearia sempre teve no visagismo um dos seus principais diferenciais — entendendo que cabelo e barba precisam conversar com o rosto e com a personalidade de cada cliente.</p>
+                    <p>Ao longo dos anos, cortes, parcerias e muitas resenhas ajudaram a construir uma comunidade em torno da cadeira.</p>
+                    <button class="btn-outline gold" onclick="abrirAgendamento()">Vem conhecer a Souza</button>
+                </div>
+
+                <div class="sobre-imagem reveal">
+                    <img src="imagens/imgBack.jpg" id="img-sobre" alt="Ambiente da Barbearia Souza">
+                    <div class="image-badge">
+                        <strong>2016</strong>
+                        <span>começo da história</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="visagismo-section" id="visagismo">
+            <div class="visagismo-grid">
+                <div class="visagismo-copy reveal">
+                    <span class="eyebrow">NOSSO DIFERENCIAL</span>
+                    <h2>O visagismo começa antes da tesoura.</h2>
+                    <p>Muito antes de virar tendência, o atendimento da Souza já buscava entender qual estilo conversa melhor com cada rosto.</p>
+                    <ul class="check-list">
+                        <li><span>✓</span> Formato do rosto</li>
+                        <li><span>✓</span> Estilo e rotina</li>
+                        <li><span>✓</span> Cabelo + barba em harmonia</li>
+                        <li><span>✓</span> Acabamento personalizado</li>
+                    </ul>
+                    <button class="btn-cta-large" id="btn-transformacao">Ver imagem de referência</button>
+                </div>
+
+                <div class="visagismo-photo reveal">
+                    <div class="photo-frame">
+                        <img id="foto-visagismo" src="imagens/exVisa1.jpg" alt="Exemplo de trabalho de visagismo">
+                        <span class="photo-label">VISAGISMO SOUZA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experiencia-section" id="experiencia">
+            <div class="section-heading reveal">
+                <span class="eyebrow">A EXPERIÊNCIA SOUZA</span>
+                <h2>Chegou para cortar.<br><span>Ficou pela resenha.</span></h2>
+                <p>Um ambiente alternativo para transformar o tempo na cadeira em parte do rolê.</p>
+            </div>
+
+            <div class="experience-grid">
+                <article class="experience-card reveal">
+                    <span>01</span>
+                    <h3>🎮 Games</h3>
+                    <p>Um pouco de diversão para deixar a espera e o pós-corte ainda melhores.</p>
+                </article>
+                <article class="experience-card reveal">
+                    <span>02</span>
+                    <h3>🍺 Cerveja gelada</h3>
+                    <p>Porque uma boa resenha combina com aquela cerveja bem gelada.</p>
+                </article>
+                <article class="experience-card reveal">
+                    <span>03</span>
+                    <h3>💬 Resenha</h3>
+                    <p>Amizades, histórias e parcerias fazem parte da identidade da casa.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="depoimentos-section" id="depoimentos">
+            <div class="section-heading reveal">
+                <span class="eyebrow">QUEM JÁ SENTOU NA CADEIRA</span>
+                <h2>A resenha continua depois do corte.</h2>
+            </div>
+
+            <div class="testimonial-wrap reveal">
+                <div class="quote-mark">“</div>
+                <p id="texto-depoimento"></p>
+                <h4 id="autor-depoimento"></h4>
+                <div class="controles-carrossel">
+                    <button class="btn-seta" onclick="depoimentoAnterior()" aria-label="Depoimento anterior">←</button>
+                    <div class="dots" id="dots-depoimentos"></div>
+                    <button class="btn-seta" onclick="proximoDepoimento()" aria-label="Próximo depoimento">→</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section reveal">
+            <div>
+                <span class="eyebrow">SEU PRÓXIMO VISUAL COMEÇA AQUI</span>
+                <h2>Pronto para sentar na cadeira?</h2>
+                <p>Escolha seu serviço e chama a Souza para reservar seu horário.</p>
+            </div>
+            <button class="btn-cta-large" onclick="abrirAgendamento()">Agendar pelo WhatsApp</button>
+        </section>
+    </main>
+
+    <a href="https://wa.me/5548996100867" class="whatsapp-flutuante" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">⌕</a>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box footer-brand">
+                <img src="imagens/logoBarberz.png" alt="Barbearia Souza" id="logo-footer">
+                <p>Estilo, visagismo e muita resenha desde 2016 em Laguna/SC.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Atendimento</h3>
+                <p>Terça a sexta<br>09h às 12h • 13h30 às 20h</p>
+                <p>Sábado<br>08h às 12h • 13h às 18h</p>
+            </div>
+            <div class="footer-box">
+                <h3>Onde estamos</h3>
+                <p>📍 Centro, Laguna - SC</p>
+                <a href="#inicio" class="footer-link">Voltar ao topo ↑</a>
+            </div>
+            <div class="footer-box">
+                <h3>Agendamento</h3>
+                <p>Fale com a Barbearia Souza e escolha seu horário.</p>
+                <button class="btn-footer" onclick="abrirAgendamento()">Chamar no WhatsApp</button>
+            </div>
+        </div>
+        <div class="footer-direitos">
+            <p>&copy; 2026 Barbearia Souza. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
